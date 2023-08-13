@@ -14,7 +14,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % HEADINGS: Commands for printing name and address
 
-\def \addressSep {$\diamond$}         % Set default address seperator
+\def \addressSep {$\circ$}         % Set default address seperator
 
 \newcommand\name[1]{
     \MakeUppercase{\namesize \textbf{#1}}
