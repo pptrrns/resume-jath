@@ -1,119 +1,138 @@
-%%%%%%%%%%%% Document
 \documentclass[letter]{resume}
-\usepackage[letterpaper, left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
+\usepackage[letterpaper, 
+            left = 1.5cm,
+            top = 2cm,
+            right = 1.5cm,
+            bottom = 1.5cm]{geometry}
 
-\usepackage{color}                  % allows usage of color fonts
-\definecolor{blue1}{RGB}{31,97,242} % defines color and its name
-\usepackage[colorlinks=true, allcolors=blue1, pdfborderstyle={/S/U/W 1}]{hyperref}
+\usepackage{color}
+\definecolor{teal}{RGB}{16, 96, 89}
+\definecolor{azure}{rgb}{0.0, 0.5, 1.0}
+\definecolor{red}{RGB}{148, 25, 4}
+\usepackage[colorlinks = true,
+            allcolors = red,
+            pdfborderstyle = {/S/U/W 1}]{hyperref}
 
 \usepackage{vwcol}
 \usepackage{natbib}
-\usepackage{cfr-lm}           % make old style numbers default
+\usepackage{cfr-lm}
 \usepackage{graphicx}
 \usepackage{upquote}
 
-\usepackage{setspace}         %allows to change linespacing
-\setstretch{1}                %linespacing
-\clubpenalty=10000            % avoid clubs
-\widowpenalty=10000           % avoid widows
+\usepackage{setspace}
+\setstretch{1}
+\clubpenalty = 10000
+\widowpenalty = 10000
 
 \begin{document}
 
-%%%%%%%%%%%% Title Section
+%%%%% %%%%% %%%%% Title Section
+
 \begin{center}
-\name{José Ángel Torrens Hernández}
+\name{José Á. Torrens Hernández}
+\normalsize
 \contact {+52 55$\cdot$32$\cdot$46$\cdot$78$\cdot$20}
-{\href{mailto://jose.torrens@kof.com.mx}{jose.torrens@kof.com.mx}}
+{\href{mailto://jose.torrens@itam.mx}{jose.torrens@itam.mx}}
 {\href{https://www.linkedin.com/in/jtorrensh/}{in/jtorrensh}}
 {\href{https://github.com/pptrrns}{github/pptrrns}}
-{\bf Politólogo, Ciudad de México}
+\bfseries{Politólogo, Ciudad de México}
 
-\emph{Intereses}: {Public Policy, Government Affairs, Public Affairs {\em\&} Corporate Affairs.}
+% {\emph{Intereses}: Política Pública, Inferencia Causal, Análisis de Datos, Asuntos Gubernamentales \emph{\&} Asuntos Públicos.}
+% \vspace{0.05cm}
 \end{center}
 
-%%%%%%%%%%%% Educación 
+\spacing{1}
+
+%%%%% %%%%% %%%%% Educación
+
 \section{Estudios}
+
 \begin{content}
-{\bf Instituto Tecnológico Autónomo de México} \emph {} \hfill {\bf 2018 -- 2023} \\ 
-{ITAM, Licenciatura en \emph{Ciencia Política}} \hfill \emph {Ciudad de México}
+% \vspace{0.05cm}
 
-GPA: 3.5
-
-\emph{Disponibilidad}: {Tiempo completo a partir de enero de 2024.}
+{\bf Instituto Tecnológico Autónomo de México} \hfill{2018 -- 2023}\\ 
+{Licenciatura en \emph{Ciencia Política}} \hfill \emph{CGPA: 3.5/4.0}
 
 \sectionlineskip
 \end{content}
 
-%%%%%%%%%%%% Experiencia
+%%%%% %%%%% %%%%% Experiencia
+
 \section{Experiencia}
+
 \begin{content}
+% \vspace{0.05cm}
 
-\begin{position}{Intern Asuntos Regulatorios y Relaciones Institucionales}{Jul 2022 -- actualidad}{Coca–Cola FEMSA}{}{}
-  \item Monitoreo de riesgos y tendencias regulatorias para la industria de bebidas embotelladas en 10 países de América Latina.
-  \item Elaboración de insumos como \emph{policy brief}, presentaciones, reportes, informes y demás documentos para la estrategia de defensa de categoría de la compañía. Estos insumos incluyen argumentos y narrativas en defensa de la industria para mitigar las tendencias regulatorias que ponen en riesgo la continuidad del negocio. 
-  \item Elaboración de reportes de coyuntura, alertas regulatorias e informes de perspectivas políticas, económicas y sociales, a nivel regional e internacional para miembros del \emph{C-suite}.
+\begin{position}{Intern Asuntos Regulatorios y Relaciones Institucionales}{jul. 2022 -- actualidad}{Coca--Cola FEMSA}{}{}
+ \item Análisis y monitoreo de tendencias regulatorias en la industria de bebidas embotelladas en 10 países de América Latina, identificando riesgos y oportunidades clave para la toma de decisiones estratégicas.
+ \item Elaboración de \emph{policy briefs}, presentaciones, reportes, informes y demás documentos para la estrategia de defensa de categoría de la compañía. Estos insumos incluyen argumentos y narrativas en defensa de la industria para mitigar las tendencias regulatorias que ponen en riesgo la continuidad del negocio.
+ \item Elaboración de reportes de coyuntura, alertas regulatorias e informes de perspectivas políticas, económicas y sociales, a nivel regional e internacional para miembros del \emph{C-suite}.
+ \item Investigación de personas e instituciones de interés para la agenda de relacionamiento institucional de la compañía.
 \end{position}
-\vspace{-.0001 \baselineskip}
 
-\begin{position}{Asistente de Investigación}{Ene 2022 -- Dic 2022}{Departamento de Ciencia Política, ITAM}{Ph.D Eric Magar Meurs}{}
-  \item Manejo de bases de datos utilizando Rstudio y CartoDB.
-  \item Creación de mapas y diagramas para el análisis de datos.
-  \item Recolección, procesamiento y limpieza de bases de datos.
-  \item Gestión de bases de datos utilizando Git y GitHub.
+\begin{position}{Asistente de Investigación}{ene. -- dic. 2022}{Eric Magar Meurs, Ph.D $\sim$ ITAM}{}{}
+ \item Recopilación de información.
+ \item Recolección, procesamiento y limpieza de bases de datos.
+ \item Gestión de bases de datos utilizando Git y GitHub.
+ \item Manejo de bases de datos utilizando RStudio y CartoDB.
+ \item Creación de mapas y gráficas para el análisis de datos.
 \end{position}
-\vspace{-.0001 \baselineskip}
+\vspace{-.1 \baselineskip}
 
 \sectionlineskip
 \end{content}
 
-%%%%%%%%%%%%  Proyectos
-\section{Proyectos \textbf{\em\&} Extracurriculares}
+%%%%% %%%%% %%%%% Cursos
 
-\begin{content}
-\begin{position}{La Gaceta de Ciencia Política}{Feb 2022 -- actualidad}{\normalfont\href{https://gacetadecpol.com/}{\texttt{gacetadecpol.com}}}{\emph{Consejo Editorial}}{}
-  \item Publicación impresa y digital para la difusión de ideas e investigaciones en el área de las Ciencias Sociales.
-\end{position}
-
-\begin{position}{Modelos de Naciones Unidas}{2013 -- 2018}{\normalfont\href{https://www.linkedin.com/in/jtorrensh/}{\texttt{in/jtorrensh}}}{\emph{Delegado, Presidente, Moderador, Organizador, Staff, etc.}}{}
-  \item Participé durante más de 5 años en la planeación, dirección y organización de proyectos de debate para jóvenes universitarios, destacando mi participación como Comité Ejecutivo,  en más de dos ocasiones, del \emph{Modelo de Naciones Unidas del H. Congreso de la Unión}, Congresmun.
-\end{position}
-
-\sectionlineskip
-\end{content}
-
-%%%%%%%%%%%%  Publicaciones 
-%%% \noindent
-%%% \renewcommand{\refname}{Publications}   % name of the reference section
-%%% \bibliography{biblio.bib}               % bib file
-%%% \bibliographystyle{abbrvnat}            % citation style
-%%% \nocite{*}
-%%% \sectionlineskip
-
-%%%%%%%%%%%%  Cursos
 \section{Cursos \textbf{\em\&} Certificaciones}
 
 \begin{content}
+% \vspace{0.05cm}
 
-\begin{position}{Evidence in Governance and Politics}{Agosto 2023}{Latin America Regional Hub / Learning Days}{}{}
-\item Los talleres de los Días de Aprendizaje del Hub Regional de EGAP en Latinoamérica tienen como objetivo desarrollar la familiaridad de los participantes con la inferencia causal en evaluaciones de impacto.
+\begin{position}{Bloomberg for Education}{feb. 2024}{\normalfont\href{https://portal.bloombergforeducation.com/courses}{\texttt{Bloomberg Market Concepts (BMC)}}}{}{}
+\item Bloomberg Market Concepts (BMC).
 \end{position}
 
-\begin{position}{Instituto Nacional de Estadística y Geografía}{2017}{Courses}{}{}
-\item \emph{Mapa Digital de México}, Dirección de Capacitación y Calidad (INEGI, Jan 2017).
-\item \emph{Productos de Información Estadística y Geográfica de México}, Dirección de Capacitación y Calidad (INEGI, Jan 2017).
-\item \emph{Directorio Estadístico Nacional de Unidades Económicas}, Dirección de Capacitación y Calidad (INEGI, 2017).
+\begin{position}{Evidence in Governance and Politics}{ago. 2023}{\normalfont\href{https://egap.org/project/learning-days-13-latin-america-regional-hub-workshop/}{\texttt{Latin America Regional Hub (EGAP)}}}{}{}
+  \item Participé en los \emph{Días de Aprendizaje del Hub Regional de EGAP en Latinoamérica}, adquiriendo conocimientos sobre el diseño e implementación de Experimentos Aleatorizados Controlados (RCT's) en el contexto de evaluaciones de impacto.
+\end{position}
+
+\begin{position}{Instituto Nacional de Estadística y Geografía}{ene. 2017}{}{}{}
+  \item \emph{Mapa Digital de México} (Taller Ejecutivo v.6), {\normalfont\href{https://drive.google.com/file/d/11P-V5IOrVxSAdumvZkqc6cNErlPHsWbA/view?usp=sharing}{\texttt{Dirección de Capacitación y Calidad}}}
+  \item \emph{Productos de Información Estadística y Geográfica de México}, {\normalfont\href{https://drive.google.com/file/d/175VzjC148czXa4mLOryoo6QfAnEpCx_z/view?usp=sharing}{\texttt{Dirección de Capacitación y Calidad}}}
 \end{position}
 
 \end{content}
 
-%%%%%%%%%%%% Technical Skills
-\section{Skills}
+%%%%% %%%%% %%%%% Proyectos
+
+\section{Proyectos \textbf{\em\&} Extracurriculares}
 
 \begin{content}
+% \vspace{0.05cm}
+
+\begin{position}{La Gaceta de Ciencia Política}{jul. -- dic. 2022}{\normalfont\href{https://gacetadecpol.wordpress.com}{\texttt{gacetadecpol.com}} $\sim$ \emph{Consejo Editorial}}{}{}
+\item Dirigí el Consejo Editorial de \emph{La Gaceta}, una publicación impresa y digital para la difusión de investigaciones en el área de las Ciencias Sociales, particularmente de la Ciencia Política. El objetivo de \emph{La Gaceta} es difundir el trabajo de académicos, estudiantes, activistas y políticos que reflexionan sobre la actualidad de las ciencias sociales.
+\end{position}
+
+\begin{position}{Modelos de Naciones Unidas}{2013 -- 2018}{}{}{}
+ \item Participé durante más de 5 años en la planeación, dirección y organización de proyectos de debate para jóvenes universitarios, destacando mi participación como Comité Ejecutivo, en más de dos ocasiones, del \emph{Modelo de Naciones Unidas del H. Congreso de la Unión}, Congresmun.
+\end{position}
+
+\sectionlineskip
+\end{content}
+
+%%%%% %%%%% %%%%% Technical Skills
+
+\section{Technical Skills}
+
+\begin{content}
+% \vspace{0.05cm}
+
 \begin{tabular}{ @{} >{\bf}l @{\hspace{6ex}} l }
-  Lenguajes de programación & RStudio (intermedio), \LaTeX\ (intermedio). \\ 
-  Herramientas computacionales & MS Office (avanzado), Git \& Github (intermedio), CartoDB (intermedio). \\
-  Idiomas & Español (nativo), Inglés (intermedio). \\ 
+  Lenguajes de programación & R $\&$ RStudio (Avanzado), Python (Básico), \LaTeX\ (Intermedio). \\ 
+  Herramientas digitales & MS Office (Avanzado), Git \& Github (Intermedio), CartoDB (Básico -- Intermedio). \\
+  Idiomas & Español (Nativo), Inglés (Avanzado, C1).
 \end{tabular}
 
 \sectionlineskip

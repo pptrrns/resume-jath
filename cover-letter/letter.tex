@@ -1,0 +1,80 @@
+\documentclass[letter]{tufte-handout}
+
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth, totalheight=\textheight, keepaspectratio}
+\graphicspath{{plots/}{./}}
+
+% Adjust the bottom margin
+\geometry{
+  bottom = 2.5cm  % Adjust this value to change the bottom margin
+}
+\usepackage{booktabs}
+\usepackage{lipsum}
+
+\usepackage{setspace}
+
+
+\usepackage{xcolor} % Required for defining colors
+\definecolor{red}{RGB}{148, 25, 4} % Define magenta color
+
+\usepackage{hyperref} % Required for hyperlinks
+\hypersetup{
+  colorlinks = true,
+  linkcolor = red, 	% Color of internal links
+  urlcolor = red, 	% Color of URLs
+  citecolor = red 	% Color of bibliographical citations
+}
+
+%%%%% %%%%% %%%%% %%%%%
+\title{}																% Name
+\date{} 																% Date, use \date{} for no date
+
+\begin{document}
+
+\maketitle 															% Print the title section
+
+\vspace{2cm}
+
+%%%%% %%%%% %%%%% %%%%%
+\RaggedLeft
+{\LARGE \textsc{\allcaps{José Á. Torrens Hernández}}} 			% Name
+
+\vspace{2cm}
+
+{\large\emph{Ciudad de México, 22 de diciembre de 2023}} 		% Date
+
+\vspace{1cm}
+
+\spacing{1}
+
+{\smallcaps{Company Name}}\\ 					% Company Name
+{\normalsize Department Name}\\				% Department Name
+{\normalsize Department Address}\\		% Department Adress
+{\normalsize City, ST., Zip Code}			% Adress
+
+\vspace{.5cm}
+
+\spacing{1.15}
+
+\justifying
+\setlength{\parindent}{0cm}
+
+\subsection*{Dear Hiring Manager,} 		% Hiring Team
+
+%%%%% %%%%% %%%%% %%%%%
+\lipsum[1] 														% Text
+
+\vspace{0.2cm}
+
+\marginnote[4.5cm]{\setlength{\parindent}{0cm}{\normalsize\textsc{\smallcaps{José Á. Torrens Hernández}}}\\
+{\emph{Ciudad de México}}\\
+\contact{+52 55$\cdot$32$\cdot$46$\cdot$78$\cdot$20}\\
+{\href{mailto://jose.torrens@itam.mx}{jose.torrens@itam.mx}}\\
+{\href{https://www.linkedin.com/in/jtorrensh/}{in/jtorrensh}}\\
+{\href{https://github.com/pptrrns}{github/pptrrns}}}
+
+\setlength{\parindent}{1cm}
+
+\lipsum[1] 														% Text
+
+\end{document}

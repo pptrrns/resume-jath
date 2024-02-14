@@ -1,120 +1,149 @@
-%%%%%%%%%%%% Document
 \documentclass[letter]{resume}
-\usepackage[letterpaper, left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
+\usepackage[letterpaper, 
+            left = 1.5cm,
+            top = 2cm,
+            right = 1.5cm,
+            bottom = 1.5cm]{geometry}
 
-\usepackage{color}            % allows usage of color fonts
-\definecolor{blue1}{RGB}{31,97,242} % defines color and its name
-\usepackage[colorlinks=true, allcolors=blue1, pdfborderstyle={/S/U/W 1}]{hyperref}
+\usepackage{color}
+\definecolor{teal}{RGB}{16, 96, 89}
+\definecolor{azure}{rgb}{0.0, 0.5, 1.0}
+\definecolor{red}{RGB}{148, 25, 4}
+\usepackage[colorlinks = true,
+            allcolors = red,
+            pdfborderstyle = {/S/U/W 1}]{hyperref}
 
 \usepackage{vwcol}
 \usepackage{natbib}
-\usepackage{cfr-lm}           % make old style numbers default
+\usepackage{cfr-lm}
 \usepackage{graphicx}
 \usepackage{upquote}
 
-\usepackage{setspace}         %allows to change linespacing
-\setstretch{1}                %linespacing
-\clubpenalty=10000            % avoid clubs
-\widowpenalty=10000           % avoid widows
+\usepackage{setspace}
+\setstretch{1}
+\clubpenalty = 10000
+\widowpenalty = 10000
 
 \begin{document}
 
-%%%%%%%%%%%% Title Section
+%%%%% %%%%% %%%%% Title Section
+
 \begin{center}
-\name{José Ángel Torrens Hernández}
+\name{José Á. Torrens Hernández}
+\normalsize
 \contact {+52 55$\cdot$32$\cdot$46$\cdot$78$\cdot$20}
-{\href{mailto://jose.torrens@kof.com.mx}{jose.torrens@kof.com.mx}}
+{\href{mailto://jose.torrens@itam.mx}{jose.torrens@itam.mx}}
 {\href{https://www.linkedin.com/in/jtorrensh/}{in/jtorrensh}}
 {\href{https://github.com/pptrrns}{github/pptrrns}}
-{\bf Political Scientist, Mexico City}
+\bfseries{Political Scientist, Mexico City}
 
-\emph{Interests}: {Public Policy, Government Affairs, Public Affairs \em\& Corporate Affairs.}
+% {\emph{Intereses}: Política Pública, Inferencia Causal, Análisis de Datos, Asuntos Gubernamentales \emph{\&} Asuntos Públicos.}
+% \vspace{0.05cm}
 \end{center}
 
-%%%%%%%%%%%% Education 
-\section{Education} 
+\spacing{1}
+
+%%%%% %%%%% %%%%% Education
+
+\section{Education}
+
 \begin{content}
-{\bf Instituto Tecnológico Autónomo de México} \emph {} \hfill {\bf 2018 -- 2023} \\ 
-{B.A., ITAM, \emph{Political Science}} \hfill \emph {Mexico City}
+% \vspace{0.05cm}
 
-GPA: 3.5
-
-\emph{Availability}: {Full time as of january 2024.}
+{\bf Instituto Tecnológico Autónomo de México} \hfill{2018 -- 2023}\\ 
+{B.A., \emph{Political Science}} \hfill \emph{CGPA: 3.5/4.0}
 
 \sectionlineskip
 \end{content}
 
-%%%%%%%%%%%% Experience
+%%%%% %%%%% %%%%% Experience
+
 \section{Experience}
+
 \begin{content}
+% \vspace{0.05cm}
 
-\begin{position}{Intern Corporate Affairs}{Jul 2022 -- present}{Coca–Cola FEMSA}{}{}
-  \item Monitored risks and regulatory changes in 10 Latin American countries.
-  \item Prepared \emph{policy briefs}, presentations, reports, and other documents to support the company's strategy.
+\begin{position}{Regulatory and Institutional Affairs Intern}{2022 -- present}{Coca--Cola FEMSA}{}{}
+  \item Analysis and monitoring of regulatory trends in the bottled beverage industry across 10 Latin American countries, identifying key risks and opportunities for strategic decision-making.
+  \item Prepared \emph{policy briefs}, presentations, reports, and other documents for the company's category defense strategy. These inputs include arguments in defense of the industry to mitigate regulatory trends that undermine business continuity.
   \item Generated situation reports, regulatory alerts, and comprehensive reports on regional and international political, economic, and social landscapes for \emph{C-suite} executives.
+  \item Research on key individuals and institutions for the company's institutional relationship agenda.
 \end{position}
-\vspace{-.0001 \baselineskip}
 
-\begin{position}{Research Assistant}{Jan 2022 -- Dic 2022}{Department of Political Science, ITAM}{Ph.D Eric Magar Meurs}{}
-  \item Conducted data analysis using computer software such as RStudio and CartoDB.
+\begin{position}{Research Assistant}{2022}{Eric Magar Meurs, Ph.D $\sim$ ITAM}{}{}
+  \item Data collection, processing, and cleaning.
+  \item Data management using Git and GitHub.
+  \item Data analysis using computer software such as RStudio and CartoDB.
   \item Generated charts, maps, and plots to facilitate data analysis.
-  \item Collected, processed, and cleaned data.
-  \item Managed data using Git and GitHub.
 \end{position}
-\vspace{-.0001 \baselineskip}
+\vspace{-.1 \baselineskip}
 
 \sectionlineskip
 \end{content}
 
-%%%%%%%%%%%%  Projects
+%%%%% %%%%% %%%%% Courses
+
+\section{Courses \textbf{\em\&} Certifications} 
+
+\begin{content}
+% \vspace{0.05cm}
+
+\begin{position}{Bloomberg for Education}{2024}{\normalfont\href{https://portal.bloombergforeducation.com/courses}{\texttt{Bloomberg Market Concepts (BMC)}}}{}{}
+\item Bloomberg Market Concepts (BMC) is an e-learning course that provides a comprehensive understanding of essential concepts in finance, economics, and investment strategies, covering topics such as market structure, economic indicators, fixed income, equities, currencies, commodities, and portfolio management.
+\end{position}
+
+\begin{position}{Evidence in Governance and Politics}{2023}{\normalfont\href{https://egap.org/project/learning-days-13-latin-america-regional-hub-workshop/}{\texttt{Latin America Regional Hub (EGAP)}}}{}{}
+  \item The \emph{EGAP's Learning Days Workshops} provide a comprehensive learning experience that includes design clinics, research presentations, hands-on experience with statistical analysis software, and topical lectures. The sessions covered topics such as randomization, causal inference, hypothesis testing, and impact evaluation.
+\end{position}
+
+\begin{position}{Instituto Nacional de Estadística y Geografía}{2017}{}{}{}
+  \item \emph{Mapa Digital de México} (Taller Ejecutivo v.6), {\normalfont\href{https://drive.google.com/file/d/11P-V5IOrVxSAdumvZkqc6cNErlPHsWbA/view?usp=sharing}{\texttt{Dirección de Capacitación y Calidad}}}
+  \item \emph{Productos de Información Estadística y Geográfica de México}, {\normalfont\href{https://drive.google.com/file/d/175VzjC148czXa4mLOryoo6QfAnEpCx_z/view?usp=sharing}{\texttt{Dirección de Capacitación y Calidad}}}
+\end{position}
+
+\end{content}
+
+%%%%% %%%%% %%%%% Projects
+
 \section{Projects \textbf{\em\&} Extracurriculars} 
 
 \begin{content}
-\begin{position}{La Gaceta de Ciencia Política}{Feb 2022 -- present}{\normalfont\href{https://gacetadecpol.com/}{\texttt{gacetadecpol.com}}}{\emph{Editorial Board}}{}
-  \item Printed and digital publication for the dissemination of ideas and research in the field of Social Sciences.
+\vspace{0.05cm}
+
+\begin{position}{La Gaceta de Ciencia Política}{2022}{\normalfont\href{https://gacetadecpol.wordpress.com}{\texttt{gacetadecpol.com}} $\sim$ \emph{Editorial Board}}{}{}
+  \item Editorial Board Director of \emph{La Gaceta}, a print and digital publication for the dissemination of ideas and research in social sciences.
 \end{position}
 
-\begin{position}{Model United Nations}{2013 -- 2018}{\normalfont\href{https://www.linkedin.com/in/jtorrensh/}{\texttt{in/jtorrensh}}}{\emph{Delegate, Chairman, Moderator, Director, Staff, etc.}}{}
+\begin{position}{Model United Nations}{2013 -- 2018}{}{}{}
   \item I participated for over 5 years in the planning, leadership, and organization of debate projects for university students, with a particular highlight being my involvement as a Committee member on multiple occasions at the Model United Nations of the \emph{H. Congreso de la Unión}, Congresmun. 
 \end{position}
 
 \sectionlineskip
 \end{content}
 
-%%%%%%%%%%%%  Publciations 
-%%% \noindent
-%%% \renewcommand{\refname}{Publications}   % name of the reference section
-%%% \bibliography{biblio.bib}               % bib file
-%%% \bibliographystyle{abbrvnat}            % citation style
-%%% \nocite{*}
-%%% \sectionlineskip
+%%%%% %%%%% %%%%% Technical Skills
 
-%%%%%%%%%%%%  Courses
-\section{Courses \textbf{\em\&} Certifications} 
-
-\begin{content}
-\begin{position}{Evidence in Governance and Politics}{August 2023}{Latin America Regional Hub / Learning Days}{}{}
-\item The EGAP's Learning Days workshops provide a comprehensive learning experience that includes design clinics, research presentations, hands-on experience with statistical analysis software, and topical lectures. The sessions covered topics such as randomization, causal inference, hypothesis testing, and impact evaluation.
-\end{position}
-
-\begin{position}{Instituto Nacional de Estadística y Geografía}{2017}{Courses}{}{}
-\item \emph{Mapa Digital de México}, Dirección de Capacitación y Calidad (INEGI, Jan 2017).
-\item \emph{Productos de Información Estadística y Geográfica de México}, Dirección de Capacitación y Calidad (INEGI, Jan 2017).
-\item \emph{Directorio Estadístico Nacional de Unidades Económicas}, Dirección de Capacitación y Calidad (INEGI, 2017).
-\end{position}
-\end{content}
-
-%%%%%%%%%%%% Technical Skills
 \section{Technical Skills}
 
 \begin{content}
+% \vspace{0.05cm}
+
 \begin{tabular}{ @{} >{\bf}l @{\hspace{6ex}} l }
-  Programming Languages & RStudio (competent), \LaTeX\ (novice). \\ 
-  Tools \textbf{\em\&} Technologies & MS Office (advanced), Git \& Github (competent), CartoDB (competent). \\
-  Languages & Spanish (native), English (fluent).
+  Programming Languages & R $\&$ RStudio (Advanced), Python (Novice), \LaTeX\ (Competent). \\ 
+  Tools \textbf{\em\&} Technologies & MS Office (Advanced), Git \& Github (Competent), CartoDB (Competent). \\
+  Languages & Spanish (Native), English (Advanced, C1).
 \end{tabular}
 
 \sectionlineskip
 \end{content}
 
 \end{document}
+
+%%%%% %%%%% %%%%% Publciations 
+
+%%% \noindent
+%%% \renewcommand{\refname}{Publications}   % name of the reference section
+%%% \bibliography{biblio.bib}               % bib file
+%%% \bibliographystyle{abbrvnat}            % citation style
+%%% \nocite{*}
+%%% \sectionlineskip
